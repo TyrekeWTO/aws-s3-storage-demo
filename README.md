@@ -1,26 +1,46 @@
-# aws-s3-storage-demo
+# AWS S3 Static Storage Demo
 
-## Objective
-Demonstrate understanding of AWS S3 object storage and cost structure.
+## Project Objective
+Deploy a static HTML file into Amazon S3 and understand how AWS object storage works.
+
+---
 
 ## Services Used
 - Amazon S3
-- AWS Billing Dashboard
+- AWS Management Console
+
+---
 
 ## Actions Performed
-- Created S3 bucket
-- Uploaded object
-- Reviewed storage class (Standard)
-- Analyzed pricing model
+1. Created S3 bucket in us-east-1 region
+2. Created a valid HTML file (index.html)
+3. Corrected file extension to ensure proper MIME type
+4. Uploaded file to S3 bucket
+5. Verified object stored as text/html
 
-## Key Concepts Learned
+---
+
+## Key Concepts Demonstrated
 - Object storage
-- Variable cost model
-- Storage pricing
-- Data transfer pricing
+- Buckets and objects
+- MIME types
+- Static web assets
+- Cloud file deployment
+
+---
 
 ## Screenshots
-(Add screenshots here)
+
+### Bucket Created
+![Bucket](01-bucket-created.png)
+
+### Object Uploaded
+![Object](02-object-uploaded.png)
+
+### Upload Success Confirmation
+![Upload](03-upload-success.png)
+
+---
 
 ## Outcome
-Successfully deployed and stored an object in AWS S3 and verified cost impact.
+Successfully deployed a static web file into Amazon S3 and verified storage configuration.
